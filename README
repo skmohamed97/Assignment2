@@ -1,0 +1,25 @@
+Awale Ahmed cssc2141 820347457, Said Mohamed cssc2120 819274138
+CS570 Summer 2020
+Assignment #2, microshell
+
+Files in this project:
+README
+msh	 -- executable
+msh.c    -- main c file
+msh.h    -- header file
+makefile
+
+To compile this, simply type "make" within your terminal. Then to run type "make run". Lastly, to clean
+the program and remove the executable file simply type "make clean".
+
+This microshell can take in input in the format of "executableFile -argument" with any
+number of other executable files piped after. The "exit" command is also built in.
+
+This program taught us how executable files are run within unix shell.
+
+
+We worked on the entire assignment together but the functions each member wrote are:
+Awale: run(), runCommands(), main()
+Said: prompt(), pipes()
+
+Use the code in cssc2120 
